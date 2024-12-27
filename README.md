@@ -8,12 +8,16 @@ Mentor:NEELA SANTHOSH KUMAR
 
 ## Overview of the project
 
-### project :
+### project   
+Create a Java program that acts as a basic calculator. It should prompt the user to
+enter two numbers and choose an operation (addition, subtraction, multiplication,
+division). Then, it should perform the selected operation and display the result to the
+user.   write objective, key activity, technology  used for the given project
 
-###Objective:
+### Objective:
 To develop a simple, user-friendly Java program that performs basic arithmetic operations (addition, subtraction, multiplication, and division) based on user input. This project demonstrates the use of Java's control structures and basic arithmetic operators to solve a practical problem.
 
-###Key Activities:
+### Key Activities:
 Requirement Analysis:
 
 - ** Define the core functionality of the calculator:
@@ -36,6 +40,6 @@ Test edge cases like zero input or invalid operation selections.
 Provide comments in the code to explain the logic.
 Create a simple user manual for the program usage.
 
-###Technology Used:
+### Technology Used:
 Programming Language: Java
 Java Standard Library: java.util.Scanner for user input handling.
