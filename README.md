@@ -7,10 +7,10 @@
   <img src="https://img.shields.io/badge/ID-CT12DFT-grey?style=for-the-badge" alt="Intern ID">
   <br/><br>
   
-  <a href="https://github.com/your-username" target="_blank">
+  <a href="https://github.com/sumitkolgire23" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile">
   </a>
-  <a href="https://linkedin.com/in/your-profile" target="_blank">
+  <a href="https://linkedin.com/in/sumit-kolgire" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile">
   </a>
   <br>
