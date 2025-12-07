@@ -102,8 +102,7 @@ To get a local copy up and running, follow these simple steps.
 
 * **Company:** CodTech IT Solutions
 * **ID:** CT12DFT
-* **GitHub:** [github.com/your-username](https://github.com/)
-
+* **GitHub:** https://github.com/Sumitkolgire23
 ---
 <div align="center">
   <sub>Built with ❤️ using Java during CodTech IT Solutions Internship.</sub>
