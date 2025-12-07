@@ -1,77 +1,68 @@
 # 🧮 Basic Arithmetic Calculator
 
-<div align="center">
-
-![Java](https://img.shields.io/badge/Language-Java-orange)
-![Internship](https://img.shields.io/badge/CODTECH-Internship-blue)
-![Status](https://img.shields.io/badge/Status-Completed-success)
-
-</div>
+![Java](https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java)
+![IDE](https://img.shields.io/badge/IDE-IntelliJ%20%7C%20Eclipse%20%7C%20VS%20Code-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 
 ---
 
-## 👨‍💻 Internship Information
+## 👨‍💻 Internship Details
 
-| Category | Details |
-| :--- | :--- |
-| **Name** | **SUMIT KOLGIRE** |
+| **Category** | **Details** |
+|:---:|:---|
+| **Name** | SUMIT KOLGIRE |
 | **Company** | CODTECH IT SOLUTIONS |
-| **Intern ID** | CT12DFT |
+| **ID** | CT12DFT |
 | **Domain** | JAVA PROGRAMMING |
-| **Duration** | DEC 2024 TO FEB 2025 |
+| **Duration** | DEC 2024 - FEB 2025 |
 | **Mentor** | NEELA SANTHOSH KUMAR |
 
 ---
 
-## 📝 Project Overview
+## 📝 Overview
 
-**Project Goal:** Create a Java program that acts as a basic calculator.
+This project is a **robust, console-based calculator application** developed using Java. It is designed to perform fundamental arithmetic operations with precision and error handling.
 
-This project is a console-based application designed to perform fundamental arithmetic operations. It prompts the user to enter two numbers and select an operation (addition, subtraction, multiplication, or division), then processes the input to display the accurate result.
-
-### 🎯 Objective
-To develop a simple, user-friendly Java program that performs basic arithmetic operations based on user input. This project demonstrates the use of Java's control structures and basic arithmetic operators to solve a practical problem.
+The primary objective was to develop a simple, user-friendly program that demonstrates the use of Java's control structures (such as `switch` statements) and input handling via the `Scanner` class to solve practical mathematical problems.
 
 ---
 
-## 🔑 Key Activities
+## 🚀 Key Features
 
-The development process involved the following key stages:
-
-- **📊 Requirement Analysis:** Defined core functionalities (input handling, operation selection) and error handling strategies (e.g., division by zero).
-- **🎨 Design:** Created a logical flow for the command-line interface to ensure a user-friendly experience.
-- **💻 Implementation:** Utilized Java constructs like `Scanner` for inputs and `switch/if-else` statements for logic control.
-- **🧪 Testing:** Verified the program against various inputs, including edge cases like zero input and invalid choices.
-- **📄 Documentation:** Commented code for clarity and created user manuals.
+* **User-Friendly Interface:** Clear menu-driven prompts for easy navigation.
+* **Arithmetic Operations:** Supports Addition (+), Subtraction (-), Multiplication (*), and Division (/).
+* **Error Handling:** Includes specific logic to prevent "Division by Zero" crashes.
+* **Input Validation:** Ensures the calculator processes floating-point numbers (`double`) for higher accuracy.
 
 ---
 
-## 🛠️ Technology Used
+## 🛠️ Technologies Used
 
-* **Programming Language:** Java
-* **Input Handling:** `java.util.Scanner`
-* **Logic Control:** `Switch-Case`, `If-Else`
-
----
-
-## 📸 Output Screens
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/a0816ed7-f25a-4260-ad61-60921fa7d6b9" width="45%" alt="Screenshot 1"/>
-  <img src="https://github.com/user-attachments/assets/8e0408bf-ead6-47fd-8243-40e708478693" width="45%" alt="Screenshot 2"/>
-</div>
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/4b2d5163-edb2-4c74-a3b7-78c4bd84a15d" width="60%" alt="Screenshot 3"/>
-</div>
+* **Programming Language:** Java (JDK 8+)
+* **Core Logic:** `java.util.Scanner` for Input/Output operations.
+* **Concepts:** Control Flow (`if-else`, `switch-case`), Exception Handling mechanisms.
 
 ---
 
-## 💻 Code Snippet
+## 📸 Screenshots
 
-Here is a glimpse of the core logic used to handle operations:
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a0816ed7-f25a-4260-ad61-60921fa7d6b9" alt="Input Screen" width="45%">
+  <img src="https://github.com/user-attachments/assets/8e0408bf-ead6-47fd-8243-40e708478693" alt="Operation Menu" width="45%">
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4b2d5163-edb2-4c74-a3b7-78c4bd84a15d" alt="Result Output" width="80%">
+</p>
+
+---
+
+## 💻 Code Structure
+
+The core logic is contained within the `BasicCalculator` class. Here is a snippet of the operation handling:
 
 ```java
-// Perform the selected operation
+// Logic for selecting operations
 switch (choice) {
     case 1:
         result = num1 + num2;
@@ -81,8 +72,13 @@ switch (choice) {
         result = num1 - num2;
         System.out.println("Result: " + result);
         break;
-    // ... Additional cases for Multiplication and Division
-    default:
-        validChoice = false;
-        System.out.println("Invalid choice. Please choose a valid operation.");
+    // ... additional cases
+    case 4:
+        if (num2 != 0) {
+            result = num1 / num2;
+            System.out.println("Result: " + result);
+        } else {
+            System.out.println("Error: Division by zero is not allowed.");
+        }
+        break;
 }
