@@ -37,33 +37,44 @@ It features a user-friendly command-line interface developed using **Java Standa
 ---
 
 ## 📂 Internship Details
+<div align="center">
 
 | Category | Details |
-| :--- | :--- |
-| **Company** | CODTECH IT SOLUTIONS |
-| **Mentor** | NEELA SANTHOSH KUMAR |
-| **Duration** | DEC 2024 TO FEB 2025 |
-| **ID** | CT12DFT |
+|---------|---------|
+| Company | CODTECH IT SOLUTIONS |
+| Mentor | NEELA SANTHOSH KUMAR |
+| Duration | DEC 2024 TO FEB 2025 |
+| ID | CT12DFT |
+
+</div>
 
 ---
 
 ## 🛠️ Technical Stack
 
-| Category | Technologies |
-| :--- | :--- |
-| **Language** | ![Java](https://img.shields.io/badge/-Java-E34F26?logo=java&logoColor=white) |
-| **Core Components** | ![Scanner](https://img.shields.io/badge/-Scanner%20Class-1572B6?logo=java&logoColor=white) ![Switch Case](https://img.shields.io/badge/-Control%20Flow-F7DF1E?logo=java&logoColor=black) |
-| **Tools** | ![IDE](https://img.shields.io/badge/-IntelliJ%20%2F%20Eclipse-222222?logo=intellij-idea&logoColor=white) |
+<div align="center">
 
----
+| Category | Details |
+|---------|----------|
+| **Company** | CODTECH IT SOLUTIONS |
+| **Mentor** | NEELA SANTHOSH KUMAR |
+| **Duration** | DEC 2024 TO FEB 2025 |
+| **ID** | CT12DFT |
+
+</div>
 
 ## 📸 Output Screenshots
 
-| Input Screen | Operation Selection | Result Output |
-| :---: | :---: | :---: |
-| ![Input](https://github.com/user-attachments/assets/a0816ed7-f25a-4260-ad61-60921fa7d6b9) | ![Menu](https://github.com/user-attachments/assets/8e0408bf-ead6-47fd-8243-40e708478693) | ![Result](https://github.com/user-attachments/assets/4b2d5163-edb2-4c74-a3b7-78c4bd84a15d) |
+<div align="center">
 
-**
+| Category | Technologies |
+|---------|--------------|
+| **Language** | Java |
+| **Core Components** | Scanner Class, Control Flow |
+| **Tools** | IntelliJ / Eclipse |
+
+</div>
+
 
 ---
 
